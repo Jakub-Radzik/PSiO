@@ -8,6 +8,8 @@ public class Main {
 	        if(x>2){
 	            System.out.print("a");
             }
+			x-=1;
+			System.out.print("-");
 	        if(x==2){
 	            System.out.print("b c");
             }
@@ -16,8 +18,6 @@ public class Main {
                 x-=1;
 	        }
 
-            x-=1;
-            System.out.print("-");
         }
     }
 }
