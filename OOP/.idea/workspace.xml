@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab2cc51c-cb64-4f63-ab8d-c0b80ce4323a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iZ0BhL1fetVFp6e6O7VrKrwscL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab2cc51c-cb64-4f63-ab8d-c0b80ce4323a" name="Default Changelist" comment="" />
+      <created>1602099672496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602099672496</updated>
+      <workItem from="1602099673600" duration="364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="99" key="#Project_Structure" timestamp="1602099689942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="880" y="99" key="#Project_Structure/0.0.1920.1050/1920.-320.1080.1890@0.0.1920.1050" timestamp="1602099689942" />
+    <state x="1222" y="269" key="FileChooserDialogImpl" timestamp="1602100037610">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1222" y="269" key="FileChooserDialogImpl/0.0.1920.1050/1920.-320.1080.1890@0.0.1920.1050" timestamp="1602100037610" />
+    <state x="880" y="99" key="SettingsEditor" timestamp="1602099801294">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="880" y="99" key="SettingsEditor/0.0.1920.1050/1920.-320.1080.1890@0.0.1920.1050" timestamp="1602099801294" />
+    <state x="965" y="148" width="955" height="760" key="new project wizard" timestamp="1602100039261">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="965" y="148" width="955" height="760" key="new project wizard/0.0.1920.1050/1920.-320.1080.1890@0.0.1920.1050" timestamp="1602100039261" />
+  </component>
+</project>
