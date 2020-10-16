@@ -1,6 +1,5 @@
 package lab1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Zad2b {
