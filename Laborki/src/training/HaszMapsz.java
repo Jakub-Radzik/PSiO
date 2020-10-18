@@ -12,8 +12,8 @@ public class HaszMapsz {
         System.out.println(dict.size());
         System.out.println(dict.get("England"));
 
-        for(String i : dict.values()){
-            System.out.println(i);
+        for(String i : dict.keySet()){
+            System.out.println(i+":"+dict.get(i));
         }
 
     }
