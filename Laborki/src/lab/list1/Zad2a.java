@@ -1,4 +1,4 @@
-package lab1;
+package lab.list1;
 
 public class Zad2a {
     public static void main(String[] args) {
