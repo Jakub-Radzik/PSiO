@@ -1,5 +1,7 @@
 package lab.list2;
 
+import static java.lang.Math.*;
+
 public class Zad3 {
 
     static int silnia(int x){
@@ -15,7 +17,7 @@ public class Zad3 {
         int k = 1;
 
         while (k<=n){
-            sum += (Math.pow(x,k))/(silnia(k));
+            sum += (pow(x,k))/(silnia(k));
             k++;
         }
 
@@ -28,10 +30,10 @@ public class Zad3 {
 
         while (k<=n){
             if(k%2 == 0){
-                sum += (Math.pow(x,(2*k)+1))/(silnia((2*k)+1));
+                sum += (pow(x,(2*k)+1))/(silnia((2*k)+1));
             }
             else{
-                sum -= (Math.pow(x,(2*k)+1))/(silnia((2*k)+1));
+                sum -= (pow(x,(2*k)+1))/(silnia((2*k)+1));
             }
             k++;
         }
@@ -39,28 +41,28 @@ public class Zad3 {
         return sum;
     }
 
-    static double Cos_X_jr(int x, int n){
+    static double Cos_X_jr(double x, int n){
         double sum = 1;
         int k = 1;
 
         while (k<=n){
             if(k%2 == 0){
-                sum += (Math.pow(x,2*k))/(silnia(2*k));
+                sum += (pow(x,2*k))/(silnia(2*k));
             }
             else{
-                sum -= (Math.pow(x,2*k))/(silnia(2*k));
+                sum -= (pow(x,2*k))/(silnia(2*k));
             }
             k++;
         }
-
         return sum;
     }
 
     public static void main(String[] args) {
-
-        System.out.println(E_X_jr(2,5));
-        System.out.println(Sin_X_jr(2,5));
-        System.out.println(Cos_X_jr(2,5));
-
+            int x =2;
+        System.out.println("e^x = " + E_X_jr(x,10));
+        System.out.println("Math.exp(x) = " + Math.exp(x));
+//        System.out.println("sin(x) = " + Sin_X_jr(2,5));
+//        System.out.println("cos("+x+") = " + Cos_X_jr(x,10));
+//        System.out.println("Math.cos("+x+") = " + cos(x));
     }
 }
