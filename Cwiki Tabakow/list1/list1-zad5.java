@@ -1,4 +1,4 @@
-package com.company;
+
 
 public class zad5list1 {
     public static void main(String[] args) {
