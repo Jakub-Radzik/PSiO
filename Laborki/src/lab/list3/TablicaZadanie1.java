@@ -14,6 +14,12 @@ public class TablicaZadanie1 {
             liczby[i] = rand.nextInt(zakres);
         }
     }
+    public TablicaZadanie1(int length){
+        this(length, length*3)
+    }
+    public TablicaZadanie1(){
+        this(10,100);
+    }
 
     // b) wypisywanie w kolejności dodania
     public void wypiszLiczby(){
@@ -120,8 +126,8 @@ public class TablicaZadanie1 {
 
     public static void main(String[] args) {
 
-        int n = 12;
-        int k = 100;
+        int n = 12; // rozmiar tablicy
+        int k = 100; // zakres losowania
 
 //        Scanner in = new Scanner(System.in);
 //        System.out.println("n musi być mniejsze od k");

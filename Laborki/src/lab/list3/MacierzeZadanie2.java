@@ -81,12 +81,16 @@ public class MacierzeZadanie2 {
 
         MacierzeZadanie2 matrix1 = new MacierzeZadanie2(size, 50);
         MacierzeZadanie2 matrix2 = new MacierzeZadanie2(size, 50);
+
         System.out.println("matrix 1");
         display(matrix1.getMatrix());
+
         System.out.println("matrix 2");
         display(matrix2.getMatrix());
+
         System.out.println("matrix addition");
         display(matrixSum(matrix1, matrix2));
+
         System.out.println("matrix multiply");
         display(matrixMultiply(matrix1, matrix2));
     }
