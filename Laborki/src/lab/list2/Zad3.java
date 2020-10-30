@@ -16,7 +16,7 @@ public class Zad3 {
         double sum = 1;
         int k = 1;
 
-        while (k<=n){
+        while (k<=n && x!=0){
             sum += (pow(x,k))/(silnia(k));
             k++;
         }
@@ -60,9 +60,9 @@ public class Zad3 {
     public static void main(String[] args) {
             int x =2;
         System.out.println("e^x = " + E_X_jr(x,10));
-        System.out.println("Math.exp(x) = " + Math.exp(x));
-//        System.out.println("sin(x) = " + Sin_X_jr(2,5));
-//        System.out.println("cos("+x+") = " + Cos_X_jr(x,10));
+//        System.out.println("Math.exp(x) = " + Math.exp(x));
+        System.out.println("sin(x) = " + Sin_X_jr(x,5));
+        System.out.println("cos("+x+") = " + Cos_X_jr(x,10));
 //        System.out.println("Math.cos("+x+") = " + cos(x));
     }
 }

@@ -38,7 +38,7 @@ public class Zad1 {
         BigInteger x = new BigInteger("2");
 
         try{
-            System.out.println(power(x,500));
+            System.out.println(power(x,10));
         }
         catch (ArithmeticException e){
             System.out.println("Wykładnik musi być większy lub równy 0");
