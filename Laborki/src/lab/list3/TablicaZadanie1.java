@@ -15,7 +15,7 @@ public class TablicaZadanie1 {
         }
     }
     public TablicaZadanie1(int length){
-        this(length, length*3)
+        this(length, length*3);
     }
     public TablicaZadanie1(){
         this(10,100);

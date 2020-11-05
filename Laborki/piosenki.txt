@@ -1,0 +1,12 @@
+Piosenka{title='Siema', artist='Mordo', length=0}
+Piosenka{title='Siema1', artist='Mordo2', length=1}
+Piosenka{title='Siema3', artist='Mordo3', length=3}
+Piosenka{title='Siema4', artist='Mordo4', length=4}
+Piosenka{title='Siema', artist='Mordo', length=0}
+Piosenka{title='Siema1', artist='Mordo2', length=1}
+Piosenka{title='Siema3', artist='Mordo3', length=3}
+Piosenka{title='Siema4', artist='Mordo4', length=4}
+Piosenka{title='Siema', artist='Mordo', length=0}
+Piosenka{title='Siema1', artist='Mordo2', length=1}
+Piosenka{title='Siema3', artist='Mordo3', length=3}
+Piosenka{title='Siema4', artist='Mordo4', length=4}
