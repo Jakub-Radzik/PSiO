@@ -12,29 +12,38 @@ import java.util.Enumeration;
 public class SwingCompo {
     public static void main(String[] args) {
 
-        JFrame f = new JFrame("Password Example");
-        JButton btn = new JButton("Print");
-        btn.setBounds(10,120,100,40);
+        JFrame f = new JFrame("My Java App");
+        JButton btn = new JButton("Show Selected");
+        JLabel selected = new JLabel("Select and confirm");
+        btn.setBounds(10,200,130,40);
 
         JRadioButton c1 = new JRadioButton("Java");
         JRadioButton c2 = new JRadioButton("C++");
         JRadioButton c3 = new JRadioButton("Scala");
+        c1.setSelected(true);
 
+        String[] country = {"Poland", "USA", "England"};
+        JComboBox cb = new JComboBox(country);
 
         c1.setBounds(10,10,100,30);
         c2.setBounds(10,50,100,30);
         c3.setBounds(10,90,100,30);
+
+        cb.setBounds(10,120,100,40);
+
+        selected.setBounds(10,250,500,50);
+
         ButtonGroup bg = new ButtonGroup();
         bg.add(c1); bg.add(c2); bg.add(c3);
 
         f.add(btn); f.add(c1); f.add(c2); f.add(c3);
-
-
+        f.add(cb); f.add(selected);
 
         btn.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println(getSelectedButtonText(bg));
+                selected.setText("You selected: "+getSelectedButtonText(bg)+" and "+ cb.getItemAt(cb.getSelectedIndex()));
+                JOptionPane.showMessageDialog(null, "Congratulations");
             }
 
             @Override
