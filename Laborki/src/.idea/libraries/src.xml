@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pt13_lista3_Radzik.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pt13_A_lista1_Radzik.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pt13_lista2_Radzik.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
