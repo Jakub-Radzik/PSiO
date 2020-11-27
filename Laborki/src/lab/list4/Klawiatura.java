@@ -19,6 +19,11 @@ abstract public class Klawiatura {
         this.kodProducenta = kodProducenta;
     }
 
+    @Override
+    public String toString() {
+        return producent + model;
+    }
+
     public String getProducent() {
         return producent;
     }
