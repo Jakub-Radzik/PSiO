@@ -1,4 +1,4 @@
-Siema
-mordo
-co
-jest
+0 Jakub
+1 Andrzej
+2 Piotr
+3 Maciej

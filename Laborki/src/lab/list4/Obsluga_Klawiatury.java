@@ -38,7 +38,9 @@ public class Obsluga_Klawiatury {
     }
 
     static void przedluzGwarancje(Klawiatura klawiatura, int miesiace){
+        System.out.println("Przed przedłużeniem: " + klawiatura.getMiesiaceGwarancji());
         klawiatura.setMiesiaceGwarancji(klawiatura.getMiesiaceGwarancji()+miesiace);
+        System.out.println("Po przedłużeniu: " + klawiatura.getMiesiaceGwarancji());
     }
 
     static void przedluzGwarancje(Klawiatura[] klawiatury, int miesiace){

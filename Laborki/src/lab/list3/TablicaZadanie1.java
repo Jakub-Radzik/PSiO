@@ -1,6 +1,5 @@
 package lab.list3;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class TablicaZadanie1 {
@@ -120,7 +119,6 @@ public class TablicaZadanie1 {
             }
         }
         return tab;
-
     }
 
 

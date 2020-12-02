@@ -1,6 +1,5 @@
 package lab.list3;
 
-import javax.crypto.Mac;
 import java.util.Random;
 
 public class MacierzeZadanie2 {
